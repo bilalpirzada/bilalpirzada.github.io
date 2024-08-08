@@ -1976,13 +1976,13 @@ var tempI64;
 // === Body ===
 
 var ASM_CONSTS = {
-  4760060: function() {Module['emscripten_get_now_backup'] = performance.now;},  
- 4760115: function($0) {performance.now = function() { return $0; };},  
- 4760163: function($0) {performance.now = function() { return $0; };},  
- 4760211: function() {performance.now = Module['emscripten_get_now_backup'];},  
- 4760266: function() {return Module.webglContextAttributes.premultipliedAlpha;},  
- 4760327: function() {return Module.webglContextAttributes.preserveDrawingBuffer;},  
- 4760391: function() {return Module.webglContextAttributes.powerPreference;}
+  4760508: function() {Module['emscripten_get_now_backup'] = performance.now;},  
+ 4760563: function($0) {performance.now = function() { return $0; };},  
+ 4760611: function($0) {performance.now = function() { return $0; };},  
+ 4760659: function() {performance.now = Module['emscripten_get_now_backup'];},  
+ 4760714: function() {return Module.webglContextAttributes.premultipliedAlpha;},  
+ 4760775: function() {return Module.webglContextAttributes.preserveDrawingBuffer;},  
+ 4760839: function() {return Module.webglContextAttributes.powerPreference;}
 };
 
 
@@ -17132,6 +17132,9 @@ var dynCall_iifiifiii = Module["dynCall_iifiifiii"] = createExportWrapper("dynCa
 var dynCall_iiffiii = Module["dynCall_iiffiii"] = createExportWrapper("dynCall_iiffiii");
 
 /** @type {function(...*):?} */
+var dynCall_viifiii = Module["dynCall_viifiii"] = createExportWrapper("dynCall_viifiii");
+
+/** @type {function(...*):?} */
 var dynCall_iiiiifiii = Module["dynCall_iiiiifiii"] = createExportWrapper("dynCall_iiiiifiii");
 
 /** @type {function(...*):?} */
@@ -17220,9 +17223,6 @@ var dynCall_viiiiiiiijiiii = Module["dynCall_viiiiiiiijiiii"] = createExportWrap
 
 /** @type {function(...*):?} */
 var dynCall_viiiiiifiiiiii = Module["dynCall_viiiiiifiiiiii"] = createExportWrapper("dynCall_viiiiiifiiiiii");
-
-/** @type {function(...*):?} */
-var dynCall_viifiii = Module["dynCall_viifiii"] = createExportWrapper("dynCall_viifiii");
 
 /** @type {function(...*):?} */
 var dynCall_vifiiiiii = Module["dynCall_vifiiiiii"] = createExportWrapper("dynCall_vifiiiiii");
